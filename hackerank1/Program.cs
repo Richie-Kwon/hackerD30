@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 
 namespace hackerank1
@@ -13,21 +14,21 @@ namespace hackerank1
             {
                 var input = Convert.ToString(Console.ReadLine());
                 
-                List<char> inputArray = new List<char>();
-                inputArray.Add(input);
-                // char[] inputArray = input.ToList();
-
-                List<char> oddNumbers = new List<char>();
-                List<char> evenNumbers = new List<char>();
-                for (int j = 0; j < inputArray.Count; j++)
+                // List<string> inputArray = new List<string>();
+                // inputArray.Add(input);
+                char [] inputArray = input.ToArray();
+                
+                var oddNumbers = new List<char>();
+                var evenNumbers = new List<char>();
+                for (int j = 0; j < inputArray.Length; j++)
                 {
                     if (j % 2 == 0)
                     {
-                        evenNumbers.Add(inputArray[j]);
+                        evenNumbers.Add(Convert.ToChar(inputArray[j]));
                     }
                     else
                     {
-                        oddNumbers.Add(inputArray[j]);
+                        oddNumbers.Add(Convert.ToChar(inputArray[j]));
                     }
                 }
 
