@@ -12,19 +12,22 @@ namespace hackerank1
             for (int i = 0; i < countNoun; i++)
             {
                 var input = Convert.ToString(Console.ReadLine());
-                char[] inputarray = input.ToCharArray();
+                
+                List<char> inputArray = new List<char>();
+                inputArray.Add(input);
+                // char[] inputArray = input.ToList();
 
                 List<char> oddNumbers = new List<char>();
                 List<char> evenNumbers = new List<char>();
-                for (int j = 0; j < inputarray.Length; j++)
+                for (int j = 0; j < inputArray.Count; j++)
                 {
                     if (j % 2 == 0)
                     {
-                        evenNumbers.Add(inputarray[j]);
+                        evenNumbers.Add(inputArray[j]);
                     }
                     else
                     {
-                        oddNumbers.Add(inputarray[j]);
+                        oddNumbers.Add(inputArray[j]);
                     }
                 }
 
