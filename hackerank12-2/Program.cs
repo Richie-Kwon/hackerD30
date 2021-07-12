@@ -37,18 +37,19 @@ namespace hackerank12_2
             this.testScores = scores;
         }
 
-        public char? Calculate()
+        public char Calculate()
         {
             var totalScore = testScores.Sum();
             var average = totalScore / testScores.Length;
+            char grade = '\0';
             
-            if (average >= 90 && average <= 100) return 'O';
-            if (average >= 80 && average < 90) return 'E';
-            if (average >= 70 && average < 80) return 'A';
-            if (average >= 55 && average < 70) return 'P';
-            if (average >= 40 && average < 55) return 'D';
-            if (average < 40 && average >= 0) return 'T';
-            return null;
+            if (average >= 90 && average <= 100) grade ='O';
+            if (average >= 80 && average < 90) grade ='E';
+            if (average >= 70 && average < 80) grade = 'A';
+            if (average >= 55 && average < 70) grade ='P';
+            if (average >= 40 && average < 55) grade = 'D';
+            if (average < 40 && average >= 0) grade = 'T';
+            return grade;
         } 
     }
 
