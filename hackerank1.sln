@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hakerank9", "hakerank9\hake
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hackerank8", "hackerank8\hackerank8.csproj", "{5F133B40-F4C0-4B38-A87D-EC1F1A88B868}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hackerank12-2", "hackerank12-2\hackerank12-2.csproj", "{713C9674-56CC-4E7E-B36B-F16899436BC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{5F133B40-F4C0-4B38-A87D-EC1F1A88B868}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F133B40-F4C0-4B38-A87D-EC1F1A88B868}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F133B40-F4C0-4B38-A87D-EC1F1A88B868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{713C9674-56CC-4E7E-B36B-F16899436BC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{713C9674-56CC-4E7E-B36B-F16899436BC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{713C9674-56CC-4E7E-B36B-F16899436BC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{713C9674-56CC-4E7E-B36B-F16899436BC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
