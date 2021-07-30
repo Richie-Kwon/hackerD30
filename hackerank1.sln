@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hackerank4", "hackerank4\ha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hackerank5", "hackerank5\hackerank5.csproj", "{983193CA-0CCD-4B29-8D12-4D7ABD2B350C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hackerankday6", "hackerankday6\hackerankday6.csproj", "{B133298C-EC5B-4183-A4B4-5E7E32A0E967}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,5 +92,9 @@ Global
 		{983193CA-0CCD-4B29-8D12-4D7ABD2B350C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{983193CA-0CCD-4B29-8D12-4D7ABD2B350C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{983193CA-0CCD-4B29-8D12-4D7ABD2B350C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B133298C-EC5B-4183-A4B4-5E7E32A0E967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B133298C-EC5B-4183-A4B4-5E7E32A0E967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B133298C-EC5B-4183-A4B4-5E7E32A0E967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B133298C-EC5B-4183-A4B4-5E7E32A0E967}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
