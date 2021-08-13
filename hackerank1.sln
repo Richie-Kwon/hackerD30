@@ -38,6 +38,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hackerank19", "hackerank19\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hackerank20", "hackerank20\hackerank20.csproj", "{9AAD72DB-4494-47E4-AE31-26547369B920}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hackerank24", "hackerank24\hackerank24.csproj", "{74377D2C-AF1E-4EC8-983E-9D4E2F20142C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -120,5 +122,9 @@ Global
 		{9AAD72DB-4494-47E4-AE31-26547369B920}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AAD72DB-4494-47E4-AE31-26547369B920}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AAD72DB-4494-47E4-AE31-26547369B920}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74377D2C-AF1E-4EC8-983E-9D4E2F20142C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74377D2C-AF1E-4EC8-983E-9D4E2F20142C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74377D2C-AF1E-4EC8-983E-9D4E2F20142C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74377D2C-AF1E-4EC8-983E-9D4E2F20142C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
