@@ -2,10 +2,10 @@
 
 namespace hackerank24
 {
-    class Node
+    class Node 
     {
-        public int data;
-        public Node next;
+        public int data; //integer data filed
+        public Node next; // node instance pointer 
         public Node(int d){
             data=d;
             next=null;
@@ -15,9 +15,20 @@ namespace hackerank24
     
     class Program
     {
+        public static Node removeDuplicates(Node head){
+            //Write your code here
+    
+        }
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Node head=null;
+            int T=Int32.Parse(Console.ReadLine());
+            while(T-->0){
+                int data=Int32.Parse(Console.ReadLine());
+                head=insert(head,data);
+            }
+            head=removeDuplicates(head);
+            display(head);
         }
     }
 }

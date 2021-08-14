@@ -40,6 +40,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hackerank20", "hackerank20\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hackerank24", "hackerank24\hackerank24.csproj", "{74377D2C-AF1E-4EC8-983E-9D4E2F20142C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hackerank21", "hackerank21\hackerank21.csproj", "{786E22ED-218B-4E8F-B5CB-5BE111DE6A54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -126,5 +128,9 @@ Global
 		{74377D2C-AF1E-4EC8-983E-9D4E2F20142C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74377D2C-AF1E-4EC8-983E-9D4E2F20142C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74377D2C-AF1E-4EC8-983E-9D4E2F20142C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{786E22ED-218B-4E8F-B5CB-5BE111DE6A54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{786E22ED-218B-4E8F-B5CB-5BE111DE6A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{786E22ED-218B-4E8F-B5CB-5BE111DE6A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{786E22ED-218B-4E8F-B5CB-5BE111DE6A54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
