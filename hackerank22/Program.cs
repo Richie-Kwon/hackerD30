@@ -6,9 +6,10 @@ namespace hackerank22
     {
         static int getHeight(Node root){
             //Write your code here
-            if (root == null) {return 0;}
-            else {return 1 + Math.Max(getHeight(root.right),getHeight(root.left));}
+            if (root == null || (root.right ==null && root.left==null)) {return 0;}
+            else {return 1+ Math.Max(getHeight(root.right),getHeight(root.left));}
         }
+
 
         static Node insert(Node root, int data){
             if(root==null){
