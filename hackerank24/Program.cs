@@ -19,7 +19,7 @@ namespace hackerank24
             //Write your code here
     
         }
-        static void Main(string[] args)
+        static void Main(string[] args, object insert, object display)
         {
             Node head=null;
             int T=Int32.Parse(Console.ReadLine());
